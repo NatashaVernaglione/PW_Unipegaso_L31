@@ -325,7 +325,11 @@ button{font-family:inherit;border:none;outline:none;background:none;}
   background:linear-gradient(90deg,#22a88f,#1b8a7f);
 }
 .pdf-download-btn:active{transform:translateY(0);box-shadow:0 2px 8px rgba(43,138,111,0.3);}
-.footer-section{display:flex;
+
+/* ======================
+  FOOTER SECTIONS
+  =======================*/
+  .footer-section{display:flex;
   justify-content:space-between;
   align-items:center;
   top:0;
@@ -337,9 +341,6 @@ button{font-family:inherit;border:none;outline:none;background:none;}
   z-index:1000;
   padding:16px 24px;
 }
-/* ======================
-  FOOTER SECTIONS
-  =======================*/
 .footer-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;width:100%;}
 .certification{width:100%;align-items:center;padding-top:10px;}
 .footer-text{font-size:15px;color:var(--card);text-align:center;margin:0;}
@@ -416,6 +417,9 @@ button{font-family:inherit;border:none;outline:none;background:none;}
   .section-title{font-size:30px;margin-bottom:28px;}
   .commitment-card{padding:24px 18px;}
   .commitment-icon{font-size:36px;}
+  .footer-section{flex-direction:column;gap:16px;text-align:center;}
+  .footer-top{flex-direction:column;gap:16px;}
+  .newsletter{justify-content:center;width:100%;}
 }
 @media (max-width:720px){
   .people-counters{gap:10px;}
