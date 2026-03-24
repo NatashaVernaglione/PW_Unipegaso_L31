@@ -398,8 +398,10 @@ button{font-family:inherit;border:none;outline:none;background:none;}
   .timeline-container{justify-content:flex-start;flex-wrap:wrap;}
   .timeline-description{padding-bottom:16px;}
   .point-timeline{max-width:45%;margin-bottom:16px;margin-left:10px;}
+  .sustainability-column{display:grid;grid-template-columns:1fr;gap:18px;}
 }
 @media (max-width:768px){
+  .container{max-width:100%;margin:0;padding:8px}
   .hamburger {display: flex;}
   .menu {
         display: none;
@@ -420,11 +422,14 @@ button{font-family:inherit;border:none;outline:none;background:none;}
   .footer-section{flex-direction:column;gap:16px;text-align:center;}
   .footer-top{flex-direction:column;gap:16px;}
   .newsletter{justify-content:center;width:100%;}
+  .sustainability-column{display:grid;grid-template-columns:1fr;gap:18px;}
 }
 @media (max-width:720px){
   .people-counters{gap:10px;}
   .people-counters .counter{flex:1 1 45%;}
+  .sustainability-column{grid-template-columns:1fr;gap:18px;}
 }
 @media (max-width:420px){
   .people-counters .counter{flex:1 1 100%;}
+  .sustainability-column{grid-template-columns:1fr;gap:18px;}
 }
