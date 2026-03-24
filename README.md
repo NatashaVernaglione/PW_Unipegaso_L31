@@ -11,6 +11,9 @@ per l'animazione del counter riguardo la sezione della inclusività, è stato pr
 per il report da scaricare, si è utilizzato il report originale, disponibile nella pagina ufficiale della planetfarms, PLANET FARMS_REPORT_FULL_11032024.pdf (il nome del file, è stato lasciato quello originale)
 
 # istruzioni per la visualizzazione in locale
+è possibile visionare la pagina completa scaricando solo il file planetfarms.html in locale.
+La cta download, però in caso di scaricamento in locale, non scaricherà il file ma lo aprirà.
+aprendo invece la pagina web direttamente dal link scaricherà il download
 
 # struttura della repository
 tutti i file sono presenti nella cartella principale, ad eccezione delle immagini, che sono tutte raccolte nella sottocartella dedicata (img)
