@@ -4,7 +4,7 @@
 :root{
   --bg-1:#f6fbf8;
   --accent:#276a5b;
-  --accent-secondary:rgba(102, 188, 155, 0.7);;
+  --accent-secondary:rgba(102, 188, 155, 0.7);
   --bg-section:#fafafa;
   --muted:#62737a;
   --card:#ffffff;
@@ -52,7 +52,7 @@ button{font-family:inherit;border:none;outline:none;background:none;}
 .hamburger span {
     width: 30px;
     height: 3px;
-    background-color:rgba(255,255,255,0.8);
+    background-color:var(--accent-secondary);
 }
 /* ======================
   3. HERO SECTION
